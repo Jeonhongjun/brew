@@ -3,7 +3,7 @@ import numpy as np
 from ..base import Ensemble
 from ..combination.combiner import Combiner
 
-from sklearn import cross_validation
+from sklearn import model_selection
 
 
 class EnsembleStack(object):
